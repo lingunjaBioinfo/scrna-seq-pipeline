@@ -3,3 +3,4 @@
 *.tar.gz
 .Rhistory
 filtered_gene_bc_matrices/hg19/matrix.mtx
+data/
