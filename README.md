@@ -53,3 +53,20 @@ R, Seurat, ggplot2, dplyr, Ubuntu, Git
 - Multi-sample integration (Seurat v5 JoinLayers)
 - Unknown cluster investigation
 - Cross-dataset marker variability
+## Exercise 2: Disease vs Healthy Comparison
+
+### Key Finding — Differential Abundance
+![Differential Abundance](results/differential_abundance.png)
+
+Cluster 5 depleted in Disease (15% → 4%):
+Ribosomal proteins + LTB markers suggest
+Naive/Memory T cells — lymphopenia pattern
+
+Cluster 0 expanded in Disease (22% → 30%):
+Dominant cell population increases
+
+## Key Skills Learned
+- Dataset-specific QC thresholds (v2 vs v3 chemistry)
+- Differential abundance analysis
+- Cell proportion comparison between conditions
+- Interpreting lymphopenia-like patterns
