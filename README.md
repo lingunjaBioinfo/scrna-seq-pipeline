@@ -70,3 +70,8 @@ Dominant cell population increases
 - Differential abundance analysis
 - Cell proportion comparison between conditions
 - Interpreting lymphopenia-like patterns
+**Note:** Both datasets are healthy PBMC samples
+used to practice the differential abundance workflow.
+Real disease comparison requires controlled-access
+COVID-19 datasets. Workflow is identical for
+real disease data.
