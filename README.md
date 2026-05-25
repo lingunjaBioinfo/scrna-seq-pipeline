@@ -103,3 +103,11 @@ checkpoint inhibitor therapy.
 - DotPlot visualization across cell types
 - Connecting bulk and single cell analyses
 - Identifying cell-type-specific gene expression
+
+**Limitation:** This analysis uses healthy PBMC
+scRNA-seq as a reference. A complete TME analysis
+requires breast cancer tumor scRNA-seq data.
+The methodology demonstrated here is identical
+to what would be applied to real tumor data.
+Real TME analysis planned when GCP access
+is available for larger dataset processing.
