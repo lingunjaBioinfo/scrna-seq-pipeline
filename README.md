@@ -111,3 +111,29 @@ The methodology demonstrated here is identical
 to what would be applied to real tumor data.
 Real TME analysis planned when GCP access
 is available for larger dataset processing.
+## Exercise 4: T Cell Differentiation Trajectory
+
+### Trajectory Analysis
+![T Cell Trajectory](results/tcell_trajectory.png)
+
+T cell differentiation path:
+Naive T → Memory T → Cytotoxic T
+
+Key observations:
+- Naive T cells (2890) form the largest population
+- Memory T cells bridge naive and cytotoxic states
+- Cytotoxic T cells represent terminal differentiation
+- Overlap between Memory and Cytotoxic clusters
+  indicates active differentiation in progress
+
+Cancer relevance:
+Exhausted T cells in tumors are arrested between
+Memory and Cytotoxic states. PD-1 checkpoint
+inhibitors release this block, allowing full
+cytotoxic differentiation and tumor killing.
+
+## Skills Learned
+- Trajectory analysis concepts and pseudotime
+- T cell differentiation biology
+- Connecting trajectory findings to cancer immunotherapy
+- Manual trajectory visualization when tools conflict
